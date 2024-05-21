@@ -15,7 +15,7 @@ oldVal := struct {
     Name string `gomaf:"name"`
     Age  int    `gomaf:"age"`
 }{
-	Name: "gomaf",
+    Name: "gomaf",
     Age:  20,
 }
 
@@ -28,6 +28,6 @@ newVal := struct {
 }
 
 result, err := Diff(oldVal, newVal)
-// result:
+// result: {"name":""}
 
 ```
