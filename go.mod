@@ -1,3 +1,3 @@
 module github.com/KenjiHosaka/gomaf
 
-go 1.20
+go 1.26.10
