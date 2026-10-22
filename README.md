@@ -4,6 +4,8 @@
 Output the difference of struct to map
 
 ## Installation
+Requires Go 1.26.10 or later.
+
 ```
 go get github.com/KenjiHosaka/gomaf
 ```
